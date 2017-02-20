@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         myFrequency = (TextView) findViewById(R.id.frequency);
         slider1 = (SeekBar) findViewById(R.id.slider1);
 
-
+        // Slider Listener
         slider1.setOnSeekBarChangeListener(
                 new SeekBar.OnSeekBarChangeListener()
                 {
